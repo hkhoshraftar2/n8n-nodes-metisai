@@ -34,16 +34,17 @@ export async function createSession(apiKey: string, botId: string,initialMessage
   }
   
   
-export class MetisAiNode implements INodeType {
+export class MetisAiChatNode implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'MetisAi Node',
-		name: 'MetisAiNode',
+		displayName: 'MetisAi Chat Node',
+		name: 'MetisAiChatNode',
 		group: ['transform'],
 		version: 2,
-		description: 'MetisAi Node with Credential',
+		description: 'MetisAi Chat Node',
 		defaults: {
-			name: 'MetisAi Node',
+			name: 'MetisAi Chat Node',
 		},
+		icon: 'file:metisai_logo.png',
 		inputs: [NodeConnectionType.Main],
 		outputs: [NodeConnectionType.Main],
 		credentials: [

@@ -1,15 +1,19 @@
 {
   "name": "n8n-nodes-metisai",
-  "version": "1.0.35",
+  "version": "1.0.37",
   "description": "",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://metisai.ir",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkhoshraftar2/n8n-nodes-metisai"
+  },
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Hossein Khoshraftar",
+    "email": "hkhoshraftar@gmail.com"
   },
   "engines": {
     "node": ">=18.10",
@@ -33,7 +37,7 @@
         "dist/credentials/MetisAiApi.credentials.js"
         ],
     "nodes": [
-      "dist/nodes/MetisAiNode/MetisAiNode.node.js"
+      "dist/nodes/MetisAiNode/MetisAiChatNode.node.js"
     ]
   },
   "devDependencies": {
